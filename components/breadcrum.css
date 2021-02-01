@@ -1,0 +1,42 @@
+/* Breadcrumb Section */
+.breadcrumb {
+  margin-bottom: 2rem;
+  height: 16rem;
+  background: url('/images/grey-bgr.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media (min-width: 1024px) {
+  .breadcrumb {
+    height: 23rem;
+  }
+}
+
+.breadcrumb__title {
+  margin: 1rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: rgb(0, 10, 45);
+}
+
+@media (min-width: 1024px) {
+  .breadcrumb__title {
+    margin-left: 3.5rem;
+    font-size: 5rem;
+  }
+}
+
+.breadcrumb__route {
+  margin: 0.2rem 1rem;
+  font-size: 1.1rem;
+  color: rgb(235, 92, 82);
+}
+
+@media (min-width: 1024px) {
+  .breadcrumb__route {
+    margin-left: 3.5rem;
+  }
+}
